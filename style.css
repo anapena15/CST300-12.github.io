@@ -29,7 +29,7 @@ body{
 }
 
 a {                  /* A stands for link, so this section is setting the default characteristics of links. */
-	color: #C41E3A;
+	color: #FAAFBE;
 	text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ div.section {
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
 	background:#000080;
-	color: white;
+	color: black;
 	font: 'Source Sans Pro',Arial, Sans-Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
 }
@@ -70,14 +70,14 @@ div.section {
 /* This alters the appearance of the div with id="signup". */
 #poem {
 	height: 110px;
-	background: white;
+	background: black;
 	text-align: center;
 }
 
 /* This alters the appearance of the div with id="whoweare" */
 #whoweare {
-	background: white;
-	color: black; 
+	background: black;
+	color: white; 
 }
 
 /* This alters the appearance of the div with id="minileft", the div containing the images */
